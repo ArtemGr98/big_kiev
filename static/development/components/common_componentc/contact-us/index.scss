@@ -1,0 +1,22 @@
+.contact-us {
+    text-align: center;
+    h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    &__inputs {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    &__left {
+        margin-right: 30px;
+        & > div {
+            margin-bottom: 15px;
+        }
+    }
+}

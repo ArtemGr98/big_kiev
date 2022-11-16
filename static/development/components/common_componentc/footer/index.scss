@@ -1,0 +1,28 @@
+.footer {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #315999;
+        margin-bottom: 15px;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin-bottom: 6px;
+    }
+}

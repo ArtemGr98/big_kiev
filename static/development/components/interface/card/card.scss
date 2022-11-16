@@ -1,0 +1,30 @@
+.card {
+    width: 49%;
+    padding: 15% 30px 30px 30px;
+    //background: linear-gradient(358.28deg, #315999 2.11%, rgba(49, 89, 153, 0) 56.74%);
+    color: white;
+    margin-bottom: 20px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 38px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+}

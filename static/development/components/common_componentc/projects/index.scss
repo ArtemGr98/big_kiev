@@ -1,0 +1,36 @@
+.projects {
+    &_swiper {
+        &_slide {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            &__bottom {
+                width: 100%;
+                height: 25%;
+                position: absolute;
+                bottom: 0;
+                background: #315999;
+                padding: 20px 15px;
+                color: white;
+                font-style: normal;
+            }
+
+            &__title {
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 24px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            &__text {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+    }
+}

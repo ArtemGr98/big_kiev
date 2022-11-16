@@ -1,0 +1,38 @@
+.btn_standart {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 13px 14px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.btn_blue {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #315999;
+    border: 1px solid #315999;
+    border-radius: 4px;
+    padding: 13px 48px;
+}
+
+.btn_white {
+    background: #FFFFFF;
+    width: 210px;
+    color: #CE0F18;
+    height: 62px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+
+    &:hover {
+        //border: solid 1px transparent;
+        box-shadow: 0px 5px 5px rgba(139, 139, 139, 0.29);
+    }
+}
