@@ -682,30 +682,6 @@ input::-webkit-inner-spin-button {
   .btn_white:hover {
     box-shadow: 0px 5px 5px rgba(139, 139, 139, 0.29); }
 
-.card {
-  width: 49%;
-  padding: 15% 30px 30px 30px;
-  color: white;
-  margin-bottom: 20px; }
-  .card__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-    margin-bottom: 8px; }
-  .card__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    margin-bottom: 38px; }
-  .card__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 40px; }
-
 .modal__block {
   display: none;
   transition: all .2s;
@@ -1644,82 +1620,9 @@ button.swiper-pagination-bullet {
     color: #FFFFFF;
     margin-top: 30px; }
 
-.contact-us {
-  text-align: center; }
-  .contact-us h2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #FFFFFF;
-    margin-bottom: 40px; }
-  .contact-us__inputs {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px; }
-  .contact-us__left {
-    margin-right: 30px; }
-    .contact-us__left > div {
-      margin-bottom: 15px; }
-
-.projects_swiper_slide {
-  position: relative; }
-  .projects_swiper_slide img {
-    width: 100%; }
-  .projects_swiper_slide__bottom {
-    width: 100%;
-    height: 25%;
-    position: absolute;
-    bottom: 0;
-    background: #315999;
-    padding: 20px 15px;
-    color: white;
-    font-style: normal; }
-  .projects_swiper_slide__title {
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 24px;
-    text-transform: uppercase;
-    margin-bottom: 10px; }
-  .projects_swiper_slide__text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px; }
-
-.portfolio__filter a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
-  color: #000000;
-  margin-right: 15px; }
-  .portfolio__filter a:hover {
-    color: #315999;
-    border-bottom: 1px solid #315999; }
-  .portfolio__filter a.active {
-    color: #315999;
-    border-bottom: 1px solid #315999; }
-
-.pagination {
+.about__top {
   display: flex;
-  justify-content: center;
-  margin-top: 40px; }
-  .pagination__item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    color: #414859;
-    padding: 5px 10px;
-    margin-right: 5px; }
-    .pagination__item:hover {
-      background: #315999;
-      border-radius: 3px;
-      color: #FFFFFF; }
-    .pagination__item.active {
-      background: #315999;
-      border-radius: 3px;
-      color: #FFFFFF; }
+  justify-content: space-between; }
 
 
 /*# sourceMappingURL=index.css.map*/

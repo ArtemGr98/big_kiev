@@ -682,30 +682,6 @@ input::-webkit-inner-spin-button {
   .btn_white:hover {
     box-shadow: 0px 5px 5px rgba(139, 139, 139, 0.29); }
 
-.card {
-  width: 49%;
-  padding: 15% 30px 30px 30px;
-  color: white;
-  margin-bottom: 20px; }
-  .card__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-    margin-bottom: 8px; }
-  .card__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    margin-bottom: 38px; }
-  .card__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 40px; }
-
 .modal__block {
   display: none;
   transition: all .2s;
@@ -1686,40 +1662,35 @@ button.swiper-pagination-bullet {
     font-size: 16px;
     line-height: 16px; }
 
-.portfolio__filter a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
-  color: #000000;
-  margin-right: 15px; }
-  .portfolio__filter a:hover {
-    color: #315999;
-    border-bottom: 1px solid #315999; }
-  .portfolio__filter a.active {
-    color: #315999;
-    border-bottom: 1px solid #315999; }
-
-.pagination {
+.project {
   display: flex;
-  justify-content: center;
-  margin-top: 40px; }
-  .pagination__item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    color: #414859;
-    padding: 5px 10px;
-    margin-right: 5px; }
-    .pagination__item:hover {
-      background: #315999;
-      border-radius: 3px;
-      color: #FFFFFF; }
-    .pagination__item.active {
-      background: #315999;
-      border-radius: 3px;
-      color: #FFFFFF; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .project__block {
+    width: 49%;
+    height: auto;
+    margin-bottom: 1%; }
+    .project__block img {
+      width: 100%;
+      height: 100%; }
+  .project__info {
+    display: flex;
+    margin-bottom: 30px; }
+    .project__info > :first-child {
+      width: 40%;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #315999; }
+    .project__info > :last-child {
+      width: 60%;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 24px;
+      color: #000000; }
 
 
 /*# sourceMappingURL=index.css.map*/
