@@ -682,6 +682,29 @@ input::-webkit-inner-spin-button {
   .btn_white:hover {
     box-shadow: 0px 5px 5px rgba(139, 139, 139, 0.29); }
 
+.card {
+  width: 49%;
+  padding: 15% 30px 30px 30px;
+  color: white;
+  margin-bottom: 20px; }
+  .card__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 8px; }
+  .card__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 38px; }
+  .card__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
 .modal__block {
   display: none;
   transition: all .2s;
@@ -1620,9 +1643,104 @@ button.swiper-pagination-bullet {
     color: #FFFFFF;
     margin-top: 30px; }
 
-.about__top {
+.contact-us {
+  text-align: center; }
+  .contact-us h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 40px; }
+  .contact-us__inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+  .contact-us__left {
+    margin-right: 30px; }
+    .contact-us__left > div {
+      margin-bottom: 15px; }
+
+@charset "UTF-8";
+.about__top > div {
+  width: 47%;
+  margin-bottom: 5%; }
+  .about__top > div img {
+    width: 100%; }
+
+.about__top .reputation {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 30px; }
+
+.advantages h2 {
+  color: white; }
+
+.advantages__wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+  .advantages__wrapper > div {
+    position: relative;
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 20px 20px 20px; }
+    .advantages__wrapper > div:first-child {
+      border-right: 1px solid white;
+      border-bottom: 1px solid white; }
+    .advantages__wrapper > div:last-child {
+      border-left: 1px solid white;
+      border-top: 1px solid white; }
+    .advantages__wrapper > div .number {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 160px;
+      line-height: 160px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.35); }
+
+.geography__wrapper {
+  display: flex; }
+
+.geography__left {
+  width: 60%; }
+  .geography__left img {
+    width: 120%; }
+
+.geography__right {
+  width: 40%;
+  margin-top: 50px;
+  height: fit-content;
+  background: #315999;
+  padding: 30px; }
+  .geography__right h2 {
+    color: #FFFFFF; }
+  .geography__right div {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0 0 30px 20px; }
+    .geography__right div::before {
+      content: '✓'; }
+
+.licenses__wrapper {
   display: flex;
   justify-content: space-between; }
+  .licenses__wrapper img {
+    width: 24%; }
 
 
 /*# sourceMappingURL=index.css.map*/

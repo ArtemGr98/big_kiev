@@ -1,6 +1,116 @@
 .about {
     &__top {
+        &>div {
+            width: 47%;
+            margin-bottom: 5%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .reputation {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            color: #000000;
+            margin-top: 30px;
+        }
+    }
+}
+
+.advantages {
+    h2 {
+        color: white;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        &>div {
+            position: relative;
+            width: 50%;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 36px;
+            text-align: center;
+            color: #FFFFFF;
+
+            padding: 100px 20px 20px 20px;
+
+            &:first-child {
+                border-right: 1px solid white;
+                border-bottom: 1px solid white;
+            }
+
+            &:last-child {
+                border-left: 1px solid white;
+                border-top: 1px solid white;
+            }
+
+
+            .number {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+
+                font-style: normal;
+                font-weight: 700;
+                font-size: 160px;
+                line-height: 160px;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.35);
+            }
+        }
+    }
+}
+
+.geography {
+    &__wrapper {
+        display: flex;
+    }
+    &__left {
+        width: 60%;
+        img {
+            width: 120%;
+        }
+    }
+    &__right {
+        width: 40%;
+        margin-top: 50px;
+        height: fit-content;
+        background: #315999;
+        padding: 30px;
+
+        h2 {
+            color: #FFFFFF;
+        }
+
+        div {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin: 0 0 30px 20px;
+
+            &::before {
+                content: '✓';
+            }
+        }
+    }
+}
+
+.licenses {
+    &__wrapper {
         display: flex;
         justify-content: space-between;
+        img {
+            width: 24%;
+        }
     }
 }

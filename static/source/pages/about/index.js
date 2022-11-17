@@ -19988,6 +19988,34 @@ function phoneMask(phone) {
 
 /***/ }),
 
+/***/ "../components/common_componentc/contact-us/index.js":
+/*!***********************************************************!*\
+  !*** ../components/common_componentc/contact-us/index.js ***!
+  \***********************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/common_componentc/contact-us/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/***/ }),
+
+/***/ "../components/common_componentc/contact-us/index.scss":
+/*!*************************************************************!*\
+  !*** ../components/common_componentc/contact-us/index.scss ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
+
+/***/ }),
+
 /***/ "../components/common_componentc/footer/index.js":
 /*!*******************************************************!*\
   !*** ../components/common_componentc/footer/index.js ***!
@@ -20124,6 +20152,34 @@ __webpack_require__.r(__webpack_exports__);
 /*!*************************************************!*\
   !*** ../components/interface/button/index.scss ***!
   \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
+
+/***/ }),
+
+/***/ "../components/interface/card/card.js":
+/*!********************************************!*\
+  !*** ../components/interface/card/card.js ***!
+  \********************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _card_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./card.scss */ "../components/interface/card/card.scss");
+/* harmony import */ var _card_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_card_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/***/ }),
+
+/***/ "../components/interface/card/card.scss":
+/*!**********************************************!*\
+  !*** ../components/interface/card/card.scss ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20774,16 +20830,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_interface_grid_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/interface/grid/index */ "../components/interface/grid/index.js");
 /* harmony import */ var _components_interface_form_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/interface/form/index */ "../components/interface/form/index.js");
 /* harmony import */ var _components_interface_button_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/interface/button/index */ "../components/interface/button/index.js");
-/* harmony import */ var _components_module_modal_script_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/module/modal_script/index */ "../components/module/modal_script/index.js");
-/* harmony import */ var _components_module_swiper_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/module/swiper/index */ "../components/module/swiper/index.js");
-/* harmony import */ var _components_module_form_action_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/module/form_action/index */ "../components/module/form_action/index.js");
-/* harmony import */ var _source_lib_custom_mask_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../source/lib/custom_mask/index */ "../../source/lib/custom_mask/index.js");
-/* harmony import */ var _source_lib_custom_mask_index__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_source_lib_custom_mask_index__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_common_componentc_header_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/common_componentc/header/index */ "../components/common_componentc/header/index.js");
-/* harmony import */ var _components_common_componentc_footer_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/common_componentc/footer/index */ "../components/common_componentc/footer/index.js");
-/* harmony import */ var _components_common_componentc_top_banner_index__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/common_componentc/top_banner/index */ "../components/common_componentc/top_banner/index.js");
-/* harmony import */ var _components_pages_about_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/pages/about/index */ "../components/pages/about/index.js");
+/* harmony import */ var _components_interface_card_card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/interface/card/card */ "../components/interface/card/card.js");
+/* harmony import */ var _components_module_modal_script_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/module/modal_script/index */ "../components/module/modal_script/index.js");
+/* harmony import */ var _components_module_swiper_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/module/swiper/index */ "../components/module/swiper/index.js");
+/* harmony import */ var _components_module_form_action_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/module/form_action/index */ "../components/module/form_action/index.js");
+/* harmony import */ var _source_lib_custom_mask_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../source/lib/custom_mask/index */ "../../source/lib/custom_mask/index.js");
+/* harmony import */ var _source_lib_custom_mask_index__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_source_lib_custom_mask_index__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _components_common_componentc_header_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/common_componentc/header/index */ "../components/common_componentc/header/index.js");
+/* harmony import */ var _components_common_componentc_footer_index__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/common_componentc/footer/index */ "../components/common_componentc/footer/index.js");
+/* harmony import */ var _components_common_componentc_top_banner_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/common_componentc/top_banner/index */ "../components/common_componentc/top_banner/index.js");
+/* harmony import */ var _components_common_componentc_contact_us_index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/common_componentc/contact-us/index */ "../components/common_componentc/contact-us/index.js");
+/* harmony import */ var _components_pages_about_index__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/pages/about/index */ "../components/pages/about/index.js");
 // script interface
+
 
 
 
@@ -20798,6 +20857,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // script pages
+
 
 
 

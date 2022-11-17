@@ -3,6 +3,7 @@ import '../components/common_componentc/normalize/index'
 import '../components/interface/grid/index'
 import '../components/interface/form/index'
 import '../components/interface/button/index'
+import '../components/interface/card/card'
 
 
 // script common elements
@@ -17,6 +18,7 @@ import '../../source/lib/custom_mask/index'
 import '../components/common_componentc/header/index'
 import '../components/common_componentc/footer/index'
 import '../components/common_componentc/top_banner/index'
+import '../components/common_componentc/contact-us/index'
 // import '../components/module/validation/index'
 // import '../components/common_componentc/form_action/index'
 
