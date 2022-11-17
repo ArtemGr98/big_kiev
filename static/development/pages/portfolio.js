@@ -20,6 +20,7 @@ import '../components/common_componentc/footer/index'
 import '../components/common_componentc/top_banner/index'
 import '../components/common_componentc/contact-us/index'
 import '../components/common_componentc/projects/index'
+import '../components/common_componentc/pagination/index'
 // import '../components/module/validation/index'
 // import '../components/common_componentc/form_action/index'
 

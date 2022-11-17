@@ -22,30 +22,3 @@
     }
 }
 
-.pagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-
-    &__item {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 18px;
-        color: #414859;
-        padding: 5px 10px;
-        margin-right: 5px;
-
-        &:hover {
-            background: #315999;
-            border-radius: 3px;
-            color: #FFFFFF;
-        }
-
-        &.active {
-            background: #315999;
-            border-radius: 3px;
-            color: #FFFFFF;
-        }
-    }
-}

@@ -19988,6 +19988,34 @@ function phoneMask(phone) {
 
 /***/ }),
 
+/***/ "../components/common_componentc/blog/index.js":
+/*!*****************************************************!*\
+  !*** ../components/common_componentc/blog/index.js ***!
+  \*****************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/common_componentc/blog/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/***/ }),
+
+/***/ "../components/common_componentc/blog/index.scss":
+/*!*******************************************************!*\
+  !*** ../components/common_componentc/blog/index.scss ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
+
+/***/ }),
+
 /***/ "../components/common_componentc/contact-us/index.js":
 /*!***********************************************************!*\
   !*** ../components/common_componentc/contact-us/index.js ***!
@@ -20840,7 +20868,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_common_componentc_footer_index__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/common_componentc/footer/index */ "../components/common_componentc/footer/index.js");
 /* harmony import */ var _components_common_componentc_contact_us_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/common_componentc/contact-us/index */ "../components/common_componentc/contact-us/index.js");
 /* harmony import */ var _components_common_componentc_projects_index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/common_componentc/projects/index */ "../components/common_componentc/projects/index.js");
-/* harmony import */ var _components_pages_index_index__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/pages/index/index */ "../components/pages/index/index.js");
+/* harmony import */ var _components_common_componentc_blog_index__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/common_componentc/blog/index */ "../components/common_componentc/blog/index.js");
+/* harmony import */ var _components_pages_index_index__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/pages/index/index */ "../components/pages/index/index.js");
 // script interface
 
 
@@ -20857,6 +20886,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // script pages
+
 
 
 
