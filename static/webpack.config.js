@@ -43,7 +43,8 @@ module.exports = {
         portfolio: './portfolio.js',
         project: './project.js',
         about: './about.js',
-        blog: './blog.js'
+        blog: './blog.js',
+        article: './article.js',
     },
     output: {
         filename: '[name]/index.js',

@@ -1,0 +1,21 @@
+.article {
+    & > div {
+        margin-bottom: 20px;
+    }
+    &__img {
+        width: 100%;
+        
+    }
+
+    &__date {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #9B9B9B;
+    }
+
+    &__text {
+        padding: 0 50px;
+    }
+}
